@@ -13,6 +13,7 @@ Edição organizada em 31/10/2026. As branches registram entregas atuais e perma
 | [#5](https://github.com/luigiscofano/ic-pln-tupi-antigo/pull/5) | `docs/evidencia-da-ci` | Registrar validacao remota e artefatos reproduziveis |
 | [#6](https://github.com/luigiscofano/ic-pln-tupi-antigo/pull/6) | `acervo/colab-recuperado` | Publicar Colab recuperado com guia de execução |
 | [#7](https://github.com/luigiscofano/ic-pln-tupi-antigo/pull/7) | `feat/heuristicas-ortograficas` | Publicar regras recuperadas e testar transformação XLSX/CSV |
+| [#8](https://github.com/luigiscofano/ic-pln-tupi-antigo/pull/8) | `docs/pesquisa-e-evidencias` | Publicar documentação autorizada da pesquisa e diário |
 
 [Mapa de branches](BRANCHES.md) · [Guias por assunto](topicos/README.md) · [Todos os PRs](https://github.com/luigiscofano/ic-pln-tupi-antigo/pulls?q=is%3Apr)
 
