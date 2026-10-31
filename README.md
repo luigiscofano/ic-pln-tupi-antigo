@@ -8,6 +8,14 @@
 
 Portfólio de **Luigi Scofano de Araujo · Engenharia de Computação, Poli-USP · USP 13680334**. Organização e complementos de 2026 com assistência de IA, distinguindo acervo recuperado e implementações novas. [Procedência](docs/PROCEDENCIA.md).
 
+## Orientação, parcerias e trabalhos relacionados
+
+A IC de **Luigi Scofano de Araujo** tem orientação do **Prof. Dr. Marcelo Finger (IME-USP)**. A parceria acadêmica com **Calebe Rezende** é reconhecida junto ao seu projeto relacionado, o **Dicionário Tupi-Português**, mantido em [CalebeRezende/tradutorestupi](https://github.com/CalebeRezende/tradutorestupi).
+
+**[Consultar o dicionário do Calebe →](https://caleberezende.github.io/tradutorestupi/)** · **[Parcerias, papéis e créditos →](docs/PARCERIAS.md)**
+
+A contribuição desta IC está na digitalização, estruturação e revisão de dados lexicográficos. O site e o código do dicionário referenciado têm seus créditos atribuídos a Calebe Rezende.
+
 ## Objetivos pedagógicos em destaque
 
 - **Separar fonte e interpretação** — Manter lemma_raw e cópia NFC.

@@ -5,6 +5,7 @@ O projeto de pesquisa de Luigi Scofano de Araujo tem orientação do Prof. Dr. M
 | Quero consultar | Documento |
 | --- | --- |
 | Atividades documentadas e limites das métricas | [Metodologia](../METODOLOGIA.md) |
+| Parceria com Calebe Rezende, projeto relacionado e créditos | [Parcerias e projetos relacionados](../PARCERIAS.md) |
 | Rastreabilidade e distinção entre acervo e código novo | [Procedência](../PROCEDENCIA.md) |
 | Cuidados de prompting e conferência humana | [Protocolo de revisão](../PROMPTS_E_REVISAO.md) |
 | Regras de transformação e seus limites | [Normalização recuperada](../NORMALIZACAO_RECUPERADA.md) |
