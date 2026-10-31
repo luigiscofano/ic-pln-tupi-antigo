@@ -1,5 +1,7 @@
-# Identidade visual
+# Visualizações e identidade
 
-A capa SVG foi criada para esta edição com texto e geometria. As visualizações baseadas em materiais privados não estão publicadas enquanto aguardam autorização específica.
+![Diário documental](diario.svg)
 
-O [notebook novo](../notebooks/01_auditoria_reproduzivel.ipynb) mostra a auditoria de três registros sintéticos.
+O gráfico mostra 13 registros de erro e nove notas/observações do diário autorizado. É uma contagem documental, não taxa operacional de falha. [Contexto e limites](../docs/METODOLOGIA.md).
+
+A capa foi criada nesta edição com texto e geometria. O [notebook novo](../notebooks/01_auditoria_reproduzivel.ipynb) usa três registros sintéticos; o [Colab recuperado](../acervo/README.md) permanece identificado separadamente.

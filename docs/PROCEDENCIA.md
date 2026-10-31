@@ -1,7 +1,11 @@
-# Procedência da versão pública
+# Procedência e reconstrução
 
-O tema PLN aplicado ao Tupi Antigo foi solicitado expressamente pelo autor deste portfólio. Esta versão pública contém implementações novas de 2026: importação TSV, preservação de texto, cópia NFC, auditoria estrutural, exportação, métricas de distância e adaptador OCR opcional. O notebook de demonstração e os três registros de data/demo.tsv são novos e sintéticos.
+Pesquisa de Luigi Scofano de Araujo, orientada pelo Prof. Dr. Marcelo Finger. Localizados no Drive: notebook Colab de março/2026, tabelas lexicográficas, documentação e diário de erros. Há também relatório revisado de agosto/2026 nos arquivos do ChatGPT.
 
-Não se apresenta esta implementação como entrega histórica autenticada, tradutor concluído ou validação linguística. Materiais encontrados em fontes privadas e documentos derivados deles foram preparados separadamente; sua divulgação aguarda autorização específica exigida pela revisão automática.
+O Colab recuperado tem seis células de código: upload de XLSX, imports, regras de transformação, exportação XLSX/CSV, inspeção e download. A existência desse código demonstra implementação disponível, não acurácia linguística nem execução integral sobre o corpus. A cópia sanitizada e o módulo extraído foram autorizados pelo autor e incorporados nesta edição pública.
 
-Autoria do portfólio: Luigi Scofano de Araujo — USP 13680334, matrícula autorizada para publicação. Implementação e documentação atuais produzidas com assistência de IA e verificações executáveis. Nenhum arquivo de corpus privado integra esta versão.
+O relatório revisado separa planos de resultados. Prompting documentado não equivale a fine-tuning e pipeline/interface planejados não equivalem a sistema concluído. O diário registra 22 ocorrências, 13 erros e nove notas, sem denominador de páginas processadas ou amostragem controlada.
+
+Auditoria, métricas, CLI, adaptador Tesseract e notebook demonstrativo são implementações novas desta edição. O módulo extraído do Colab está em tupi/legado.py. Seus testes caracterizam o comportamento do código, sem comprovar validade linguística.
+
+Não são republicados PDFs integrais das obras ou exportações integrais do corpus histórico. A publicação entrega software executável, documentação metodológica equivalente e dados fictícios. A liberação do corpus requer identificação editorial, direitos, revisão e rastreabilidade; não foi atribuída licença genérica às obras de Carvalho, Navarro ou Boidin.

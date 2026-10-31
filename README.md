@@ -25,6 +25,7 @@ Portfólio de **Luigi Scofano de Araujo · Engenharia de Computação, Poli-USP 
 python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
 python scripts/processar.py data/demo.tsv --saida build
+python scripts/verificar_colab_recuperado.py
 python scripts/executar_notebooks.py
 ```
 
@@ -32,10 +33,12 @@ Ambiente: **Python 3.12, Unicode e Jupyter**. [Instalação detalhada](docs/INST
 
 ## Encontre cada parte
 
+**[Guias por assunto](docs/topicos/README.md) · [Mapa de branches](docs/BRANCHES.md) · [PRs e entregas](docs/PUBLICACAO.md)**
+
 | Diretório | Conteúdo |
 | --- | --- |
 | [tupi/](tupi/README.md) | Auditoria, métricas, OCR opcional e documentação de revisão. |
-| [acervo/](acervo/README.md) | Situação do Colab recuperado, cujo conteúdo aguarda autorização específica. |
+| [acervo/](acervo/README.md) | Colab recuperado, sanitizado e autorizado, com guia de reprodução. |
 | [notebooks/](notebooks/README.md) | Demonstração nova executável com fixtures sintéticas. |
 | [data/](data/README.md) | Três linhas fictícias; não é o corpus histórico nem léxico validado. |
 | [tests/](tests/README.md) | Preservação Unicode, homógrafos, exportação e métricas. |
@@ -45,9 +48,9 @@ Ambiente: **Python 3.12, Unicode e Jupyter**. [Instalação detalhada](docs/INST
 
 ## Verificação e limites
 
-Nove testes unittest de preservação, alertas, homógrafos, round-trip CSV/JSONL, entradas inválidas, NFC com diacríticos, distâncias conhecidas e referências vazias. Notebook novo com três células de código e asserções.
+Doze testes unittest cobrem preservação, alertas, homógrafos, round-trip CSV/JSONL, entradas inválidas, NFC, distâncias, referências vazias e caracterização das heurísticas recuperadas. O núcleo do Colab também transforma uma planilha sintética, com comparação das saídas XLSX/CSV. O notebook novo contém três células de código com asserções.
 
-Sem benchmark real de OCR, validação linguística protocolada, fine-tuning ou tradutor; sem corpus integral distribuído; Colab e funções derivadas aguardam autorização específica; adaptador OCR não avaliado em corpus real.
+Sem benchmark real de OCR, validação linguística protocolada, fine-tuning ou tradutor; sem corpus integral distribuído; Colab sanitizado e funções derivadas disponíveis no acervo; adaptador OCR não avaliado em corpus real.
 
 **[Validação →](docs/VALIDACAO.md)** · **[Arquitetura e decisões →](docs/ARQUITETURA.md)**
 
@@ -55,4 +58,4 @@ Use o [roteiro de apresentação](docs/APRESENTACAO.md) e confira os [PRs reais]
 
 [Contribuir](CONTRIBUTING.md) · [Direitos e créditos](DIREITOS_E_CREDITOS.md) · [Referências](docs/REFERENCIAS.md) · [Mudanças](CHANGELOG.md)
 
-**CI confirmada:** [testes aprovados](https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41227951683). Consulte o registro de [validação remota](docs/validacao-remota.json).
+**CI confirmada:** [testes aprovados](https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41232865418). Consulte o registro de [validação remota](docs/validacao-remota.json).
