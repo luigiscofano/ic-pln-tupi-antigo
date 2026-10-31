@@ -9,3 +9,7 @@ O relatório revisado separa planos de resultados. Prompting documentado não eq
 Auditoria, métricas, CLI, adaptador Tesseract e notebook demonstrativo são implementações novas desta edição. O módulo extraído do Colab está em tupi/legado.py. Seus testes caracterizam o comportamento do código, sem comprovar validade linguística.
 
 Não são republicados PDFs integrais das obras ou exportações integrais do corpus histórico. A publicação entrega software executável, documentação metodológica equivalente e dados fictícios. A liberação do corpus requer identificação editorial, direitos, revisão e rastreabilidade; não foi atribuída licença genérica às obras de Carvalho, Navarro ou Boidin.
+
+## Projeto relacionado de Calebe Rezende
+
+A parceria acadêmica com Calebe e o [Dicionário Tupi-Português](https://github.com/CalebeRezende/tradutorestupi) estão registrados em [PARCERIAS.md](PARCERIAS.md), com autoria, links originais e versão consultada. Esta inclusão acrescenta uma referência externa à documentação; não incorpora código ou dados do dicionário ao acervo e não atribui seus resultados à IC de Luigi.

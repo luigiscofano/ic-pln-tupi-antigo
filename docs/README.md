@@ -8,6 +8,7 @@
 | [Instalação](INSTALACAO.md) | Como reproduzir? |
 | [Validação](VALIDACAO.md) | O que foi efetivamente testado? |
 | [Apresentação](APRESENTACAO.md) | Como demonstrar o projeto? |
+| [Parcerias e projetos relacionados](PARCERIAS.md) | Qual é a relação com o projeto de Calebe e quem recebe os créditos? |
 | [Referências](REFERENCIAS.md) | Quais fontes orientam o material? |
 | [Guias por assunto](topicos/README.md) | Por onde estudar cada tema? |
 | [Branches](BRANCHES.md) | Que entrega cada branch organiza? |

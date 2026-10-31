@@ -7,6 +7,7 @@ Cada branch está ligada a uma alteração concreta. A organização foi feita n
 | Branch | Finalidade | Acesso |
 | --- | --- | --- |
 | `main` | Código e documentação consolidados | [Abrir](https://github.com/luigiscofano/ic-pln-tupi-antigo/tree/main) |
+| `docs/parceria-calebe-rezende` | Referenciar o projeto de Calebe Rezende, a parceria e os créditos | [PR #9](https://github.com/luigiscofano/ic-pln-tupi-antigo/pull/9) · [Guia](PARCERIAS.md) |
 | `docs/evidencia-da-ci` | Registrar validacao remota e artefatos reproduziveis | [PR #5](https://github.com/luigiscofano/ic-pln-tupi-antigo/pull/5) |
 | `docs/guia-das-ferramentas-novas` | Documentar ferramentas novas e objetivos pedagogicos | [PR #4](https://github.com/luigiscofano/ic-pln-tupi-antigo/pull/4) |
 | `feat/demonstracao-sintetica` | Adicionar demonstracao sintetica e adaptador OCR opcional | [PR #2](https://github.com/luigiscofano/ic-pln-tupi-antigo/pull/2) |
