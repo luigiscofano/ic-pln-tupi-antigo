@@ -1,0 +1,56 @@
+{
+  "data_usuario": "2026-10-31",
+  "run_id": 41227951683,
+  "run_url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41227951683",
+  "commit": "6135c50ef5e4778c174d6c767237ea652fa8451d",
+  "conclusao": "success",
+  "jobs": [
+    {
+      "nome": "notebooks",
+      "conclusao": "success"
+    },
+    {
+      "nome": "testes (windows-latest)",
+      "conclusao": "success"
+    },
+    {
+      "nome": "testes (ubuntu-24.04)",
+      "conclusao": "success"
+    },
+    {
+      "nome": "testes (macos-15)",
+      "conclusao": "success"
+    }
+  ],
+  "artefatos": [
+    {
+      "nome": "evidencia-windows-latest",
+      "url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41227951683/artifacts/13052705873",
+      "expira_em": "2027-01-29T18:08:51Z"
+    },
+    {
+      "nome": "evidencia-macos-15",
+      "url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41227951683/artifacts/13052476950",
+      "expira_em": "2027-01-29T18:08:51Z"
+    },
+    {
+      "nome": "evidencia-ubuntu-24.04",
+      "url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41227951683/artifacts/13052337414",
+      "expira_em": "2027-01-29T18:08:51Z"
+    },
+    {
+      "nome": "notebook-executado-html",
+      "url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41227951683/artifacts/13052162800",
+      "expira_em": "2027-01-29T18:08:51Z"
+    }
+  ],
+  "ocr_local_sintetico": {
+    "mecanismo": "Tesseract local",
+    "idioma": "eng",
+    "psm": 6,
+    "referencia": "TESTE 123",
+    "hipotese": "TESTE 123",
+    "passou": true,
+    "nota": "Não é benchmark em corpus real"
+  }
+}
