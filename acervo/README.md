@@ -1,5 +1,13 @@
 # Colab recuperado · março de 2026
 
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** material recuperado, com sua origem e limitações; não confunda preservação histórica com aprovação pela suíte atual.
+
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** material recuperado, com sua origem e limitações; não confunda preservação histórica com aprovação pela suíte atual.
+
 [Abra o notebook recuperado](tupi_carvalho_navarro_colab.ipynb). A publicação foi autorizada pelo autor. A cópia preserva o código e remove saídas antigas e metadados de sessão.
 
 | Célula de código | Função | Dependência |
@@ -23,3 +31,11 @@ Os botões de upload/download dependem do Colab. A CI testa o núcleo de transfo
 O relatório de pesquisa distingue transformação reprodutível de validação linguística. Este notebook não demonstra, por si só, a acurácia das regras ou a execução completa sobre o corpus.
 
 [Ferramentas novas](../tupi/README.md) · [Procedência](../docs/PROCEDENCIA.md) · [Instalação](../docs/INSTALACAO.md)
+
+---
+
+**Projeto:** [IC · Dicionário de Tupi Antigo, OCR e revisão de dados](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `acervo/`.
+
+---
+
+**Projeto:** [IC · Dicionário de Tupi Antigo, OCR e revisão de dados](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `acervo/`.
