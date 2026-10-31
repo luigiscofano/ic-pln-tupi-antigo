@@ -8,4 +8,4 @@
 | Contratos e erros explícitos | Evitar saídas plausíveis para entradas inválidas | Casos negativos fazem parte da suíte |
 | PRs por entregas verificáveis | Facilitar revisão | Datas refletem organização atual |
 
-Decisões específicas e diferenças em relação ao histórico estão em [ARQUITETURA.md](ARQUITETURA.md) e [PROCEDENCIA.md](PROCEDENCIA.md). Limites: Sem benchmark real de OCR, validação linguística protocolada, fine-tuning ou tradutor; sem corpus integral distribuído; materiais privados não publicados; adaptador OCR não avaliado em corpus real.
+Decisões específicas e diferenças em relação ao histórico estão em [ARQUITETURA.md](ARQUITETURA.md) e [PROCEDENCIA.md](PROCEDENCIA.md). Limites: Sem benchmark real de OCR, validação linguística protocolada, fine-tuning ou tradutor; sem corpus integral distribuído; obras editoriais e corpus integral não distribuídos; adaptador OCR não avaliado em corpus real.

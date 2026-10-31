@@ -6,6 +6,7 @@ Ambiente: **Python 3.12, Unicode e Jupyter**. Execute a partir da raiz. Use pyth
 python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
 python scripts/processar.py data/demo.tsv --saida build
+python scripts/verificar_colab_recuperado.py
 python scripts/executar_notebooks.py
 ```
 

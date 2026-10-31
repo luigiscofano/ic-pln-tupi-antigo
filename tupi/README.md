@@ -4,6 +4,6 @@
 - metricas.py: distância de edição, CER e WER em pares alinhados.
 - ocr.py: adaptador opcional Tesseract local, sem benchmark real executado.
 
-O módulo de heurísticas extraído do Colab privado não está publicado e aguarda autorização específica.
+`legado.py` preserva as heurísticas recuperadas e autorizadas. O uso é explícito: o pipeline padrão conserva a forma original e aplica apenas NFC. Consulte [as regras e os testes](../docs/topicos/HEURISTICAS.md).
 
 [Contratos](../docs/ARQUITETURA.md) · [Procedência](../docs/PROCEDENCIA.md) · [Reprodução](../docs/INSTALACAO.md).

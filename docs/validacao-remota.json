@@ -1,12 +1,16 @@
 {
   "data_usuario": "2026-10-31",
-  "run_id": 41227951683,
-  "run_url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41227951683",
-  "commit": "6135c50ef5e4778c174d6c767237ea652fa8451d",
+  "run_id": 41232865418,
+  "run_url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41232865418",
+  "commit": "8320f6dcdc4c7dc638f78251810992b731f74da8",
   "conclusao": "success",
   "jobs": [
     {
       "nome": "notebooks",
+      "conclusao": "success"
+    },
+    {
+      "nome": "testes (macos-15)",
       "conclusao": "success"
     },
     {
@@ -16,41 +20,39 @@
     {
       "nome": "testes (ubuntu-24.04)",
       "conclusao": "success"
-    },
-    {
-      "nome": "testes (macos-15)",
-      "conclusao": "success"
     }
   ],
   "artefatos": [
     {
-      "nome": "evidencia-windows-latest",
-      "url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41227951683/artifacts/13052705873",
-      "expira_em": "2027-01-29T18:08:51Z"
-    },
-    {
-      "nome": "evidencia-macos-15",
-      "url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41227951683/artifacts/13052476950",
-      "expira_em": "2027-01-29T18:08:51Z"
+      "nome": "notebook-executado-html",
+      "url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41232865418/artifacts/13054780804",
+      "expira_em": "2027-01-29T19:09:26Z"
     },
     {
       "nome": "evidencia-ubuntu-24.04",
-      "url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41227951683/artifacts/13052337414",
-      "expira_em": "2027-01-29T18:08:51Z"
+      "url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41232865418/artifacts/13054581348",
+      "expira_em": "2027-01-29T19:09:26Z"
     },
     {
-      "nome": "notebook-executado-html",
-      "url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41227951683/artifacts/13052162800",
-      "expira_em": "2027-01-29T18:08:51Z"
+      "nome": "evidencia-macos-15",
+      "url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41232865418/artifacts/13054576403",
+      "expira_em": "2027-01-29T19:09:26Z"
+    },
+    {
+      "nome": "evidencia-windows-latest",
+      "url": "https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41232865418/artifacts/13053819904",
+      "expira_em": "2027-01-29T19:09:26Z"
     }
   ],
-  "ocr_local_sintetico": {
-    "mecanismo": "Tesseract local",
-    "idioma": "eng",
-    "psm": 6,
-    "referencia": "TESTE 123",
-    "hipotese": "TESTE 123",
-    "passou": true,
-    "nota": "Não é benchmark em corpus real"
-  }
+  "escopo": [
+    "12 testes unittest",
+    "núcleo recuperado executado em fixture XLSX/CSV sintética",
+    "notebook novo executado via nbclient",
+    "esquema e ausência de saídas no acervo Colab"
+  ],
+  "limites": [
+    "sem execução integral do corpus histórico",
+    "sem benchmark linguístico",
+    "upload/download interativos de Colab não exercitados na CI"
+  ]
 }

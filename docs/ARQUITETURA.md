@@ -8,7 +8,7 @@ source_id é identificador editorial local, não ID ou link privado do Drive. Ca
 
 ## NFC não é correção ortográfica
 
-NFC pode compor a+til em ã, preservando equivalência canônica. Não escolhe uma ortografia, remove acentos ou troca grafemas. O notebook recuperado e suas funções derivadas foram preparados separadamente e aguardam autorização específica para publicação. Eles não integram o fluxo padrão nem os testes desta versão.
+NFC pode compor a+til em ã, preservando equivalência canônica. Não escolhe uma ortografia, remove acentos ou troca grafemas. O Colab recuperado e suas funções estão publicados no acervo e em tupi/legado.py. Eles não integram o importador padrão. As heurísticas são testadas como comportamento de código e o núcleo da exportação é executado em fixture sintética, sem alegação de validação linguística.
 
 ## Métricas
 
