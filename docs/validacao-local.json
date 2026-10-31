@@ -1,0 +1,8 @@
+{
+  "data_usuario": "2026-10-31",
+  "comando": "python -m unittest discover -s tests -v",
+  "passou": true,
+  "testes": 9,
+  "saida": "test_auditoria (test_tupi.TestTupi.test_auditoria) ... ok\ntest_csv_json_roundtrip (test_tupi.TestTupi.test_csv_json_roundtrip) ... ok\ntest_distancia_oraculo (test_tupi.TestTupi.test_distancia_oraculo) ... ok\ntest_homografos_preservados (test_tupi.TestTupi.test_homografos_preservados) ... ok\ntest_invalidos (test_tupi.TestTupi.test_invalidos) ... ok\ntest_metricas (test_tupi.TestTupi.test_metricas) ... ok\ntest_preservacao (test_tupi.TestTupi.test_preservacao) ... ok\ntest_referencia_vazia (test_tupi.TestTupi.test_referencia_vazia) ... ok\ntest_unicode_nao_apaga_diacriticos (test_tupi.TestTupi.test_unicode_nao_apaga_diacriticos) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.003s\n\nOK\n",
+  "colab_privado": "não publicado; aguarda autorização específica"
+}
