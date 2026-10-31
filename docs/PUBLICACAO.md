@@ -2,12 +2,15 @@
 
 Repositório: https://github.com/luigiscofano/ic-pln-tupi-antigo
 
-Organização e publicação atuais, em 31/10/2026. As datas não foram retroagidas e não foram atribuídos revisores ou aprovações fictícios.
+Organização atual de 31/10/2026, sem datas retroativas ou revisões fictícias.
 
 | PR | Branch | Entrega |
 | --- | --- | --- |
 | [#1](https://github.com/luigiscofano/ic-pln-tupi-antigo/pull/1) | `feat/fundamentos` | Implementar preservacao Unicode e auditoria lexicografica |
 | [#2](https://github.com/luigiscofano/ic-pln-tupi-antigo/pull/2) | `feat/demonstracao-sintetica` | Adicionar demonstracao sintetica e adaptador OCR opcional |
 | [#3](https://github.com/luigiscofano/ic-pln-tupi-antigo/pull/3) | `test/verificacao-automatica` | Adicionar testes executaveis e GitHub Actions |
+| [#4](https://github.com/luigiscofano/ic-pln-tupi-antigo/pull/4) | `docs/guia-das-ferramentas-novas` | Documentar ferramentas novas e objetivos pedagogicos |
 
-A documentação pedagógica é a entrega seguinte, na branch `docs/objetivos-e-arquitetura`. A evidência remota será registrada após o workflow terminar. Fontes, testes e scripts foram preparados e executados localmente antes da publicação; a CI fornece uma verificação independente do ambiente local.
+Esta entrega acrescenta evidência remota confirmada: [execução aprovada](https://github.com/luigiscofano/ic-pln-tupi-antigo/actions/runs/41227951683). O registro estruturado está em [validacao-remota.json](validacao-remota.json).
+
+Materiais privados e documentação derivada permanecem separados para autorização específica; não estão no histórico publicado.
