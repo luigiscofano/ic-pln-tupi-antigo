@@ -1,6 +1,6 @@
 # Procedência e reconstrução
 
-Pesquisa de Luigi Scofano de Araujo, orientada pelo Prof. Dr. Marcelo Finger. Localizados no Drive: notebook Colab de março/2026, tabelas lexicográficas, documentação e diário de erros. Há também relatório revisado de agosto/2026 nos arquivos do ChatGPT.
+Pesquisa de Luigi Scofano de Araujo, orientada pelo Prof. Dr. Marcelo Finger. Localizados no Drive: notebook Colab de março/2026, tabelas lexicográficas, documentação e diário de erros. Há também relatório revisado de agosto/2026 nos arquivos pessoais.
 
 O Colab recuperado tem seis células de código: upload de XLSX, imports, regras de transformação, exportação XLSX/CSV, inspeção e download. A existência desse código demonstra implementação disponível, não acurácia linguística nem execução integral sobre o corpus. A cópia sanitizada e o módulo extraído foram autorizados pelo autor e incorporados nesta edição pública.
 
