@@ -16,11 +16,22 @@ O repositório contém um pipeline executável de auditoria, métricas, um noteb
 
 ## Qual problema resolve
 
+<details>
+<summary>Expandir qual problema resolve</summary>
+
 OCR transforma a imagem de uma página em texto, mas pode perder palavras, acentos e símbolos. Uma correção automática também pode introduzir informação indevida. O desafio é estruturar o material sem apagar evidências da fonte e sem tratar uma sugestão de software como decisão linguística aprovada.
 
 Uma palavra de entrada é mantida em `lemma_raw`; uma cópia Unicode canônica fica em `lemma_nfc`; o status continua `pending_review`. Traduções ausentes permanecem ausentes, e registros de mesma escrita não são apagados automaticamente, porque podem representar sentidos distintos.
 
+
+</details>
+
+---
+
 ## Funcionalidades e módulos
+
+<details>
+<summary>Expandir funcionalidades e módulos</summary>
 
 | Parte | O que faz | Relação com as outras |
 | --- | --- | --- |
@@ -49,7 +60,15 @@ O [Colab](acervo/README.md) possui seis células de código para upload, imports
 
 [METODOLOGIA.md](docs/METODOLOGIA.md) distingue relato documental e avaliação experimental. O diário consultado tem 22 registros, classificados em 13 erros e nove notas/observações; isso não é uma taxa de falha de OCR. A tabela de 1.885 registros em 66 páginas é uma contagem declarada no relatório consultado, não uma recontagem do corpus nesta edição.
 
+
+</details>
+
+---
+
 ## Como executar
+
+<details>
+<summary>Expandir como executar</summary>
 
 ```sh
 git clone https://github.com/luigiscofano/ic-pln-tupi-antigo.git
@@ -113,13 +132,29 @@ python -c "from tupi.ocr import extrair; print(extrair('pagina.png', idioma='por
 
 Para a interface interativa do Colab, abra [o notebook recuperado](acervo/tupi_carvalho_navarro_colab.ipynb) no Google Colab e siga [a ordem das colunas e células](acervo/README.md). Upload/download não fazem parte da execução local automática.
 
+
+</details>
+
+---
+
 ## O que desenvolvi e aprendi
+
+<details>
+<summary>Expandir o que desenvolvi e aprendi</summary>
 
 A pesquisa reúne digitalização, extração e estruturação lexicográfica, tratamento de Unicode e revisão rastreável. A edição de portfólio acrescenta ferramentas de auditoria, testes, fixtures e guias de reprodução, identificados na [procedência](docs/PROCEDENCIA.md).
 
 **Objetivos pedagógicos:** separar fonte e interpretação; preservar diacríticos e homógrafos; tratar ausência sem inventar; distinguir execução funcional de validação linguística; avaliar OCR com referência explícita. [Atividades e rubrica](docs/OBJETIVOS_PEDAGOGICOS.md).
 
+
+</details>
+
+---
+
 ## Estado atual
+
+<details>
+<summary>Expandir estado atual</summary>
 
 | Disponível | Limite / evolução |
 | --- | --- |
@@ -128,11 +163,27 @@ A pesquisa reúne digitalização, extração e estruturação lexicográfica, t
 | Colab e regras recuperadas | Sem validação linguística independente de todas as transformações |
 | Adaptador OCR e protocolo de revisão de LLM | Sem benchmark real do dicionário, fine-tuning ou integração automática de LLM |
 
+
+</details>
+
+---
+
 ## Validação e limites
+
+<details>
+<summary>Expandir validação e limites</summary>
 
 A CI executa testes em Linux/macOS/Windows e o notebook em kernel novo. O teste do núcleo recuperado não simula upload/download ou afirma execução integral no corpus. Um teste sintético de OCR também não demonstra desempenho em Tupi Antigo. [Evidências e escopo](docs/VALIDACAO.md).
 
+
+</details>
+
+---
+
 ## Documentação e navegação
+
+<details>
+<summary>Expandir documentação e navegação</summary>
 
 [Biblioteca](tupi/README.md) · [Demonstração](notebooks/README.md) · [Dados](data/README.md) · [Colab](acervo/README.md) · [Scripts](scripts/README.md) · [Testes](tests/README.md) · [Guias por assunto](docs/topicos/README.md) · [Documentação](docs/README.md) · [Metodologia](docs/METODOLOGIA.md) · [Revisão](docs/PROMPTS_E_REVISAO.md) · [Branches](docs/BRANCHES.md) · [PRs](docs/PUBLICACAO.md)
 
@@ -141,12 +192,33 @@ A CI executa testes em Linux/macOS/Windows e o notebook em kernel novo. O teste 
 A orientação desta IC é de **Marcelo Finger**. A parceria acadêmica com **Calebe Rezende** é reconhecida junto ao seu projeto relacionado [Dicionário Tupi-Português](https://caleberezende.github.io/tradutorestupi/), mantido em [CalebeRezende/tradutorestupi](https://github.com/CalebeRezende/tradutorestupi). O site e o código desse dicionário são de Calebe; sua base não é atribuída automaticamente ao pipeline desta IC. [Papéis, referências e créditos](docs/PARCERIAS.md).
 
 
+
+</details>
+
+---
+
 ## Autoria, referências e licença
+
+<details>
+<summary>Expandir autoria, referências e licença</summary>
 
 **Luigi Scofano de Araujo · Engenharia de Computação, Poli-USP · USP 13680334.** Fontes recuperados, componentes de terceiros e trabalhos em grupo mantêm os créditos indicados nos arquivos e na documentação.
 
 [Direitos e créditos](DIREITOS_E_CREDITOS.md) · [Procedência](docs/PROCEDENCIA.md) · [Como contribuir](CONTRIBUTING.md) · [Mudanças](CHANGELOG.md)
 
+
+</details>
+
+---
+
 ## Tópicos do repositório
 
+<details>
+<summary>Expandir tópicos do repositório</summary>
+
 `python` · `natural-language-processing` · `ocr` · `unicode` · `lexicography` · `digital-humanities` · `tupi-antigo` · `data-quality` · `jupyter-notebook` · `undergraduate-research` · `usp`
+
+</details>
+
+---
+
